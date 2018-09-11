@@ -1,0 +1,28 @@
+{
+  "name": "cadastro-criancas",
+  "version": "1.0.0",
+  "description": "Registro de crianças para creche",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcos012/Cadastro-criancas.git"
+  },
+  "author": "marcos012 <marcospaulo.ad@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marcos012/Cadastro-criancas/issues"
+  },
+  "homepage": "https://github.com/Marcos012/Cadastro-criancas#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3"
+  }
+}
