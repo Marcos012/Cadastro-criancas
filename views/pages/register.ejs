@@ -1,0 +1,28 @@
+<%- contentFor('body') %>
+    <h1>Cadastro de crianças</h1>
+    <div>
+        <span>Nome: </span>
+        <input name="nome" type="text">
+        <span>Idade: </span>
+        <input name="idade" type="text">
+        <span>Peso: </span>
+        <input name="peso" type="text">
+        <span>Alergia: </span>
+        <input name="alergia" type="text">
+    </div>
+    <div>
+        <span>Responsável: </span>
+        <input name="responsavel" type="text">
+        <span>Cidade: </span>
+        <input name="cidade" type="text">
+        <span>Bairro: </span>
+        <input name="bairro" type="text">
+        <span>Rua: </span>
+        <input name="peso" type="text" placeholder="Rua Exemplo - 123">
+    </div>
+
+    <div id="kidsList">
+        <p>Consultando...</p>
+    </div>
+    
+    <button onclick="register()">Cadastrar</button>

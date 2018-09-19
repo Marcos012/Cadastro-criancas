@@ -17,6 +17,6 @@ app
         res.render('pages/home')
     })
     .get('/cadastro', (req, res) => {
-        res.render('pages/cadastro')
+        res.render('pages/register')
     })
     .listen(PORT, () => console.log('Servidor rodando em http://localhost:' + PORT));
